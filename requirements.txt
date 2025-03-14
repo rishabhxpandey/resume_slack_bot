@@ -1,8 +1,22 @@
-slack-bolt==1.18.0
-python-dotenv==1.0.0
-PyPDF2==3.0.1
-langchain==0.1.12
-langchain-openai==0.0.8
-langchain-core==0.1.32
-langgraph==0.0.27
-openai==1.14.0 
+# Core dependencies
+slack-bolt>=1.18.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.1
+
+# LangChain and OpenAI
+langchain>=0.1.12
+langchain-openai>=0.0.8
+langchain-core>=0.1.32
+openai>=1.14.0
+
+# Async support
+aiohttp>=3.9.0
+typing-extensions>=4.7.0
+
+# Data handling
+pydantic>=2.0.0
+
+# Development tools (optional)
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0 
